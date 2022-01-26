@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <div id='elemento' style="text-align: center;"></div>
+    <div id='elemento2'style="text-align: center;"></div>
+    <div id='elemento3'style="text-align: center;"></div>
+    </div>
+    <style>
+
+.container {
+display: grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: auto auto;
+grid-column-gap: 20px
+grid-row-gap: 20px
+justify-items: stretch
+align-items: stretch
+}
+#elemento{
+background: #CE0000;
+background: -moz-linear-gradient(-45deg, #CE0000 0%, #A44343 50%, #C5B3B3 100%);
+background: -webkit-linear-gradient(-45deg, #CE0000 0%, #A44343 50%, #C5B3B3 100%);
+background: linear-gradient(135deg, #CE0000 0%, #A44343 50%, #C5B3B3 100%);
+}
+
+#elemento2{
+background: #1021CE;
+background: -moz-linear-gradient(-45deg, #1021CE 0%, #6A1DA4 50%, #C52E0F 100%);
+background: -webkit-linear-gradient(-45deg, #1021CE 0%, #6A1DA4 50%, #C52E0F 100%);
+background: linear-gradient(135deg, #1021CE 0%, #6A1DA4 50%, #C52E0F 100%);
+}
+#elemento3{
+    background: #CE0000;
+background: -moz-linear-gradient(-45deg, #CE0000 0%, #A44343 50%, #C5B3B3 100%);
+background: -webkit-linear-gradient(-45deg, #CE0000 0%, #A44343 50%, #C5B3B3 100%);
+background: linear-gradient(135deg, #CE0000 0%, #A44343 50%, #C5B3B3 100%);
+}
+
+</style>
+
+<script src="script.js"></script>
+</body>
+</html>
